@@ -1,1 +1,20 @@
 # BTS-Discography-Analysis
+
+## **Instructions**
+To access and utilize the script, open the "final_project_script.R" file, which contains the code for my findings. To access the dataset, open the "STA215-WANI.R - Sheet1.csv" file.
+
+## **Data**
+For this analysis, the data used was original songs from the discography of the South Korean musical group BTS, excluding remixes, features, or unofficial songs. The central question being asked was what kind of emotional effect BTS songs have and how those effects influence their listener engagement, as well as how they are associated with song intensity, duration, musical lines, and language usage. I examined 100 songs by the group, using each song as the unit of analysis. The sampling strategy used was a stratified random sample, as I used a random number generator to select songs and ensure randomness in the selection process, while also applying specific criteria to stratify the sample. The data was gathered from multiple sources, including Spotify for listener statistics and song durations, official lyrics databases for emotional tone and language, and fan databases for details on which musical line performed in each song. I also used a metronome and an online database to determine the song intensity by beats per minute (BPM).
+
+## **Operationalization**
+The concept of the level of energy in a song was operationalized as a quantitative variable "intensity". Song intensity was measured by the tempo of the song, recorded in beats per minute (BPM). The BPM scale is a ratio scale from 0 - 210, with higher values indicating a faster tempo. The BPM for each song was calculated using a metronome first, and then an online database to cross-check.
+
+The variable "duration" was used to operationalize the concept of the amount of time a person spends listening to the group's music. This quantitative variable was obtained from Spotify's metadata for each song. The length of each song was measured in seconds using a scale from 0 - 360, where a shorter song would fall lower on the scale.
+
+The concept of the popularity of each song was operationalized as the variable "listeners", which quantifies the extent to which a song is being streamed on the popular platform Spotify. As a result, the variable was measured by the number of unique listeners a particular song obtained on Spotify, reported in millions. The measurement scale in millions went from 0 - 1,900, where a larger value is associated with a greater reach and more engagement with the audience.
+
+The emotional tone of the lyrics was coded qualitatively based on the primary emotion conveyed (e.g., happiness, sadness, anger, etc.). This was determined by analyzing the lyrical content and categorizing it according to a predefined coding scheme. The qualitative nature of this variable is justified by the subjective interpretation of lyrical themes, which can significantly influence the listener's emotional response. The majority of songs in the sample were categorized as conveying positive emotions, with a significant minority expressing more somber tones.
+
+The predominant language of the lyrics was a qualitative variable, categorized as either Korean, English, or a mix of both. This was determined by analyzing the language in which the majority of the lyrics were written. The choice to categorize language this way reflects BTS's bilingual and multicultural appeal, which is a distinctive aspect of their music. In the sample, approximately 60% of the songs were primarily in Korean, 20% in English, and 20% were mixed, showcasing their linguistic diversity.
+
+This qualitative variable identified whether the song predominantly featured the rap line, vocal line, or both. This categorization was derived from fan databases and official BTS information, reflecting the distinct roles within the group. The operationalization of this variable helps in understanding the distribution of vocal duties and its potential impact on the song's reception. The sample revealed an almost equal distribution, with about 40% of the songs featuring both lines, 35% predominantly the vocal line, and 25% the rap line.
